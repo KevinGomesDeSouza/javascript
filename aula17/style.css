@@ -1,0 +1,36 @@
+
+
+body {
+    background-color: #3B80D1;
+    text-align: center;
+    color: white;
+
+
+}
+
+
+
+section {
+    background-color: white;
+    width: 500px;
+    margin: auto;
+    text-align: left;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.559);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+p {
+    padding: 0px;
+    margin: 0px;
+}
+
+div {
+    margin-top: 15px;
+}
+
+select {
+    width: 150px;
+}
