@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+input[type=text],input[type=number],
+#botao{
+    background-color: #EEEDEF;
+    height: 25px;
+    width: 300px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#botao {
+    background-color: #898889;
+    font-size: large;
+    margin: 10px 0px;
+    border: none;
+}
+
+.botao2 {
+    width: 65px;
+    display: block;
+    margin-top: 10px;
+}
+
+div#carros {
+    border: solid black;
+    min-height: 10px;
+    border-radius: 5px;
+    display: flex;
+}
+
+.militar:hover {   
+    cursor:not-allowed;
+
+}
+
+.carro {
+        background-color: #7ABDF0;
+        border: solid;
+        border-color: #534FA2;
+        border-radius: 5px;
+        width: 200px;
+        padding: 10px;
+        margin:5px;
+        
+}

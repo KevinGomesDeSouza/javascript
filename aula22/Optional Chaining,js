@@ -1,0 +1,23 @@
+const user = {
+    name: "Diego",
+    nickname:'Schell',  
+    idade: 27,
+    address: {
+        street: 'Rua teste',
+        number: 176,
+        zip: {
+            code:'89160000',
+            city: 'Rio do Sul'
+
+        }   
+     },
+}
+
+const key = 'name'
+console.log (user.address.street)
+
+console.log (user.address?.zip?.code ?? 'Não informado')
+
+//console.log(user.address?.zip?.code ?? 'Não informado')
+
+

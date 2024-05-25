@@ -1,0 +1,13 @@
+.mat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    background-color: #EEEDEF;
+    border: 3px solid rgba(0, 0, 0, 0.397);
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: bolder;
+    
+}

@@ -1,0 +1,142 @@
+
+* {
+    margin: 0px;
+    
+}
+
+main {
+    
+    display: flex;
+    
+
+    
+ 
+
+}
+
+
+.container {
+        width: 400px ;
+        height: 600px;
+        background-color: #EEEDEF;
+        border: 5px solid black;
+        margin-right: 14px;
+        margin-top: 5px;
+        
+        
+        
+
+        
+        
+        
+}
+
+#container1 {
+    margin-left: auto;
+    
+    
+}
+
+#container1 input  {
+    margin-top: 10px;
+}
+#container2 {
+    margin-right: auto;
+    
+    
+    
+
+}
+    
+
+
+
+.destaque {
+    background-color:#950D00 !important;
+    color: #ccc !important;
+    border-color: #f00 !important;
+
+}
+.curso {
+    width: 62%;
+    border: 4px solid #888;
+    border-radius: 10px;
+    height: 40px;
+    cursor: pointer;
+    margin: auto;
+    margin-bottom: 10px;
+    line-height: 2.5;
+    display: flex;
+    
+
+
+
+     
+    
+    
+    
+    
+
+}
+
+p {
+    margin-left: 10px;
+}
+
+.curso:hover {
+    border-color: red;
+}
+
+.c1 {
+    background-color: #ccc;
+    color: #444;
+}
+
+
+
+
+form {
+    position: relative;
+    top: 50%;
+    transform: translate(0%,-50% );
+    
+    
+    
+    
+}
+
+input {
+    display: block;
+    margin: auto;
+    
+}
+
+input[type=button]:hover {
+    cursor: pointer;
+}
+
+
+
+.botoes {
+    background-color: #00225B;
+    color: white;
+    border-radius: 10px;
+    height: 40px;
+    width: 150px;
+    
+    
+}
+
+label {
+    display: block;
+    text-align: center;
+    
+}
+
+
+input[type=radio] {
+    margin-right: 30px;
+    
+
+
+}

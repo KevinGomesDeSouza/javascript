@@ -1,0 +1,63 @@
+*{
+    border: none;
+}
+
+#caixa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    background-color: #EEEDEF;
+    border: 3px solid #A3A1A3;
+    border-radius: 5px;
+}
+
+#div_relógio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 200px;
+    background-color: #444345;
+    color: #20b331;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#HoraTempo {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    padding-left: 20px;
+
+    
+    /* background-color: red; */
+    
+    
+}
+
+#numero {
+    height: 30px;
+    width: 300px;
+    border: 2px solid  ;
+    border-radius: 5px;
+}
+
+p {
+    margin: 1px;
+    
+}
+
+button{
+    margin: 5px;
+    padding: 10px;
+    background-color: #AAA8AA;
+    border-radius: 5px;
+    cursor: pointer
+}
+
+.alarm {
+    background-color: red !important;
+}
