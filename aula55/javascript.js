@@ -77,7 +77,6 @@ class Bolas {
     }
 }
 
-
 window.addEventListener("resize", (evt)=>{
     larguraPalco =  div_bolinhas.offsetWidth
     alturaPalco = div_bolinhas.offsetHeight
@@ -96,3 +95,4 @@ btn_remover.addEventListener("click" ,(evt)=>{
        b.remover()
     })
 })
+
