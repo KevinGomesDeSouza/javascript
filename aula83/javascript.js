@@ -14,4 +14,11 @@ const callback_naook = ()=>{
     Cxmsg.mostrar(config,"Erro","Login não efetuado! Usuário ou senha incorretos. ");
 
 }
-Login.login(callback_ok,callback_naook)
+
+const configlogin = {
+    cor:"048",
+    img:"logo.png",
+    endpoint: "https://844f1358-4147-47fb-8cda-5d5e2e27efc8-00-3s860dsgbw3kv.kirk.replit.dev"
+}
+
+Login.login(callback_ok,callback_naook,configlogin)
